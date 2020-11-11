@@ -19,7 +19,7 @@
     <%= text_field_tag "name", @author.name %>
   </div>
   
-  
+  <div class="field<%= ' field_with_errors' if @author.errors[:email].any? %>">
 
 
 
